@@ -10,7 +10,7 @@
     "test": "jest",
     "test:watch": "yarn test --watch",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -s ./public"
   },
   "lint-staged": {
     "src/**/*": [
@@ -19,23 +19,23 @@
     ]
   },
   "dependencies": {
-    "next": "10.1.3",
-    "next-pwa": "^5.2.15",
+    "next": "10.2.0",
+    "next-pwa": "^5.2.21",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "styled-components": "^5.2.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.16",
+    "@babel/core": "^7.14.0",
     "@babel/preset-typescript": "^7.13.0",
     "@storybook/addon-essentials": "^6.2.9",
     "@storybook/react": "^6.2.9",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@types/jest": "^26.0.23",
-    "@types/react": "^17.0.4",
+    "@types/react": "^17.0.5",
     "@types/styled-components": "^5.1.9",
-    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
     "@typescript-eslint/parser": "^4.22.1",
     "babel-loader": "^8.2.2",
     "babel-plugin-styled-components": "^1.12.0",
